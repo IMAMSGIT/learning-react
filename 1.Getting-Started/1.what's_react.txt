@@ -1,0 +1,35 @@
+React is a JS library to build 
+fast and interactive user interface
+## In the heart of all react applications
+-- there is "Components"- a piece of user interface
+-- in making a react applications
+  -- we create a bunch of independent, isolated,reusable Components
+  -- then compose them to build complex UI
+
+$ Every react app has at least one component, 
+  which we refer to as the root component
+  -- This This component represents the entire application and contains
+    -- other child components. So every React application is essentially
+        -- a tree of components
+        -- each component is a piece of UI
+        We can build these components in isolation 
+        and then put them together to build complex UI's
+
+A component is typically
+implemented as a JavaScript class that has some state 
+and a render method
+Ex::
+class Tweet{
+    state={}
+    render(){}
+}
+
+The state here is the data that we want to display
+when the component is rendered,
+and 
+the render method responsible 
+for describing what the UI should look like.
+
+The output of this render method is a react element, 
+which is a
+simple plain JavaScript object that reacts to a DOM element.
